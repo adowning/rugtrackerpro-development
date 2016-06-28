@@ -14,10 +14,10 @@ export class FirebaseService {
     constructor() {
         // Initialize Firebase
         var config = {
-            apiKey: "AIzaSyCk6N39ZJkb-gM2EBTg2fSiwbvk9Lm0VUs",
-            authDomain: "newfirebaseapp-2ee6f.firebaseapp.com",
-            databaseURL: "https://newfirebaseapp-2ee6f.firebaseio.com",
-            storageBucket: "newfirebaseapp-2ee6f.appspot.com",
+            apiKey: "AIzaSyAH6ISxXfmvp19401SntJZgg6MqCyZUDLI",
+            authDomain: "rugtrackerpro-development.firebaseapp.com",
+            databaseURL: "https://rugtrackerpro-development.firebaseio.com",
+            storageBucket: "rugtrackerpro-development.appspot.com",
 
         };
         firebase.initializeApp(config);

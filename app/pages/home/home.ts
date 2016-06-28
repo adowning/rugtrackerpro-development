@@ -100,6 +100,9 @@ export class HomePage implements OnInit, OnDestroy {
     image.src = img;
   }
 
+  doTakePicture2() {
+    console.log('asdf')
+  }
   doTakePicture() {
     Camera.getPicture({
       destinationType: Camera.DestinationType.FILE_URI,
